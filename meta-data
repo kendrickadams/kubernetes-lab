@@ -1,0 +1,8 @@
+## /meta-data example with inline-ENI
+instance-id: cp-3
+local-hostname: cp-3
+network:
+  version: 1 
+  config:
+    - type: physical
+      name: eth0
